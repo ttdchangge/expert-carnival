@@ -1,0 +1,22 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略系统文件
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略环境变量文件
+.env
+
+# 忽略构建文件夹
+build/
+dist/
+
+# 忽略 Windows 系统文件
+Thumbs.db
+Desktop.ini
+NTUSER.DAT
+.vercel
